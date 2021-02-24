@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.form-input,
+.form-output {
+  background-color: #eee;
+  padding: 10px;
+}
+
+.submit-button {
+  display: block;
+}
